@@ -800,9 +800,9 @@
                                 </constraints>
                                 <textFieldCell key="cell" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="left" drawsBackground="YES" id="egw-mo-qms">
                                     <font key="font" metaFont="cellTitle"/>
-                                    <string key="title">The speech text source file should be in .psv or .csv format. The .psv format is a pipe separated (|) file. The .csv format is actually separated with a semi-colon (;).  Each row in the file should contain the following three colunmns: Column 1: Folder location Column 2: File name Column 3: Text to be converted to speech</string>
+                                    <string key="title">The speech text source file should be in CSV format.   The first line is ignored as it is expected to include the column headers. The expected columns are: String ID, Source Text, Translation, Context, Path, Filename</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="windowBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="urE-WB-1BP">

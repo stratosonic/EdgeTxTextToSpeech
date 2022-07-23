@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB2B99F21D821F26006941D5 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2B99F11D821F26006941D5 /* StreamReader.swift */; };
+		CB35F92C1D81044F00FB0269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35F92B1D81044F00FB0269 /* AppDelegate.swift */; };
+		CB35F92E1D81044F00FB0269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35F92D1D81044F00FB0269 /* ViewController.swift */; };
+		CB35F9301D81044F00FB0269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB35F92F1D81044F00FB0269 /* Assets.xcassets */; };
+		CB35F9331D81044F00FB0269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB35F9311D81044F00FB0269 /* Main.storyboard */; };
+		CB35F93E1D81045000FB0269 /* TextToSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35F93D1D81045000FB0269 /* TextToSpeechTests.swift */; };
+		CB35F9491D81045000FB0269 /* TextToSpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35F9481D81045000FB0269 /* TextToSpeechUITests.swift */; };
+		CB6A09F81E4C010000894407 /* SpeechSynth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6A09F71E4C010000894407 /* SpeechSynth.swift */; };
+		CBBFD1EF1F00A62A000C323B /* ViewController.orig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFD1EE1F00A62A000C323B /* ViewController.orig.swift */; };
+		CBF92BF31F09A228000A74B8 /* SpeechItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF92BF21F09A228000A74B8 /* SpeechItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB35F93A1D81045000FB0269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB35F9201D81044F00FB0269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB35F9271D81044F00FB0269;
+			remoteInfo = TextToSpeech;
+		};
+		CB35F9451D81045000FB0269 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB35F9201D81044F00FB0269 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB35F9271D81044F00FB0269;
+			remoteInfo = TextToSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB2B99F11D821F26006941D5 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		CB35F9281D81044F00FB0269 /* TextToSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextToSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB35F92B1D81044F00FB0269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB35F92D1D81044F00FB0269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB35F92F1D81044F00FB0269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB35F9321D81044F00FB0269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB35F9341D81044F00FB0269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB35F9391D81045000FB0269 /* TextToSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextToSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB35F93D1D81045000FB0269 /* TextToSpeechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechTests.swift; sourceTree = "<group>"; };
+		CB35F93F1D81045000FB0269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB35F9441D81045000FB0269 /* TextToSpeechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextToSpeechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB35F9481D81045000FB0269 /* TextToSpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechUITests.swift; sourceTree = "<group>"; };
+		CB35F94A1D81045000FB0269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6A09F71E4C010000894407 /* SpeechSynth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynth.swift; sourceTree = "<group>"; };
+		CBBFD1EE1F00A62A000C323B /* ViewController.orig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.orig.swift; sourceTree = "<group>"; };
+		CBF92BF21F09A228000A74B8 /* SpeechItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB35F9251D81044F00FB0269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35F9361D81045000FB0269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35F9411D81045000FB0269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB35F91F1D81044F00FB0269 = {
+			isa = PBXGroup;
+			children = (
+				CB35F92A1D81044F00FB0269 /* TextToSpeech */,
+				CB35F93C1D81045000FB0269 /* TextToSpeechTests */,
+				CB35F9471D81045000FB0269 /* TextToSpeechUITests */,
+				CB35F9291D81044F00FB0269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB35F9291D81044F00FB0269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB35F9281D81044F00FB0269 /* TextToSpeech.app */,
+				CB35F9391D81045000FB0269 /* TextToSpeechTests.xctest */,
+				CB35F9441D81045000FB0269 /* TextToSpeechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB35F92A1D81044F00FB0269 /* TextToSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				CB35F92B1D81044F00FB0269 /* AppDelegate.swift */,
+				CB35F92D1D81044F00FB0269 /* ViewController.swift */,
+				CBBFD1EE1F00A62A000C323B /* ViewController.orig.swift */,
+				CB35F92F1D81044F00FB0269 /* Assets.xcassets */,
+				CB35F9311D81044F00FB0269 /* Main.storyboard */,
+				CB35F9341D81044F00FB0269 /* Info.plist */,
+				CB2B99F11D821F26006941D5 /* StreamReader.swift */,
+				CB6A09F71E4C010000894407 /* SpeechSynth.swift */,
+				CBF92BF21F09A228000A74B8 /* SpeechItem.swift */,
+			);
+			path = TextToSpeech;
+			sourceTree = "<group>";
+		};
+		CB35F93C1D81045000FB0269 /* TextToSpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB35F93D1D81045000FB0269 /* TextToSpeechTests.swift */,
+				CB35F93F1D81045000FB0269 /* Info.plist */,
+			);
+			path = TextToSpeechTests;
+			sourceTree = "<group>";
+		};
+		CB35F9471D81045000FB0269 /* TextToSpeechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB35F9481D81045000FB0269 /* TextToSpeechUITests.swift */,
+				CB35F94A1D81045000FB0269 /* Info.plist */,
+			);
+			path = TextToSpeechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB35F9271D81044F00FB0269 /* TextToSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB35F94D1D81045000FB0269 /* Build configuration list for PBXNativeTarget "TextToSpeech" */;
+			buildPhases = (
+				CB35F9241D81044F00FB0269 /* Sources */,
+				CB35F9251D81044F00FB0269 /* Frameworks */,
+				CB35F9261D81044F00FB0269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextToSpeech;
+			productName = TextToSpeech;
+			productReference = CB35F9281D81044F00FB0269 /* TextToSpeech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB35F9381D81045000FB0269 /* TextToSpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB35F9501D81045000FB0269 /* Build configuration list for PBXNativeTarget "TextToSpeechTests" */;
+			buildPhases = (
+				CB35F9351D81045000FB0269 /* Sources */,
+				CB35F9361D81045000FB0269 /* Frameworks */,
+				CB35F9371D81045000FB0269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB35F93B1D81045000FB0269 /* PBXTargetDependency */,
+			);
+			name = TextToSpeechTests;
+			productName = TextToSpeechTests;
+			productReference = CB35F9391D81045000FB0269 /* TextToSpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB35F9431D81045000FB0269 /* TextToSpeechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB35F9531D81045000FB0269 /* Build configuration list for PBXNativeTarget "TextToSpeechUITests" */;
+			buildPhases = (
+				CB35F9401D81045000FB0269 /* Sources */,
+				CB35F9411D81045000FB0269 /* Frameworks */,
+				CB35F9421D81045000FB0269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB35F9461D81045000FB0269 /* PBXTargetDependency */,
+			);
+			name = TextToSpeechUITests;
+			productName = TextToSpeechUITests;
+			productReference = CB35F9441D81045000FB0269 /* TextToSpeechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB35F9201D81044F00FB0269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = Flitey;
+				TargetAttributes = {
+					CB35F9271D81044F00FB0269 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+					};
+					CB35F9381D81045000FB0269 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = CB35F9271D81044F00FB0269;
+					};
+					CB35F9431D81045000FB0269 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = CB35F9271D81044F00FB0269;
+					};
+				};
+			};
+			buildConfigurationList = CB35F9231D81044F00FB0269 /* Build configuration list for PBXProject "TextToSpeech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB35F91F1D81044F00FB0269;
+			productRefGroup = CB35F9291D81044F00FB0269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB35F9271D81044F00FB0269 /* TextToSpeech */,
+				CB35F9381D81045000FB0269 /* TextToSpeechTests */,
+				CB35F9431D81045000FB0269 /* TextToSpeechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB35F9261D81044F00FB0269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35F9301D81044F00FB0269 /* Assets.xcassets in Resources */,
+				CB35F9331D81044F00FB0269 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35F9371D81045000FB0269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35F9421D81045000FB0269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB35F9241D81044F00FB0269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6A09F81E4C010000894407 /* SpeechSynth.swift in Sources */,
+				CB2B99F21D821F26006941D5 /* StreamReader.swift in Sources */,
+				CBF92BF31F09A228000A74B8 /* SpeechItem.swift in Sources */,
+				CB35F92E1D81044F00FB0269 /* ViewController.swift in Sources */,
+				CBBFD1EF1F00A62A000C323B /* ViewController.orig.swift in Sources */,
+				CB35F92C1D81044F00FB0269 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35F9351D81045000FB0269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35F93E1D81045000FB0269 /* TextToSpeechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB35F9401D81045000FB0269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB35F9491D81045000FB0269 /* TextToSpeechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB35F93B1D81045000FB0269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB35F9271D81044F00FB0269 /* TextToSpeech */;
+			targetProxy = CB35F93A1D81045000FB0269 /* PBXContainerItemProxy */;
+		};
+		CB35F9461D81045000FB0269 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB35F9271D81044F00FB0269 /* TextToSpeech */;
+			targetProxy = CB35F9451D81045000FB0269 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB35F9311D81044F00FB0269 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB35F9321D81044F00FB0269 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB35F94B1D81045000FB0269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB35F94C1D81045000FB0269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CB35F94E1D81045000FB0269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flitey.TextToSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CB35F94F1D81045000FB0269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToSpeech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flitey.TextToSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CB35F9511D81045000FB0269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flitey.TextToSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextToSpeech.app/Contents/MacOS/TextToSpeech";
+			};
+			name = Debug;
+		};
+		CB35F9521D81045000FB0269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flitey.TextToSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextToSpeech.app/Contents/MacOS/TextToSpeech";
+			};
+			name = Release;
+		};
+		CB35F9541D81045000FB0269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToSpeechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flitey.TextToSpeechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TextToSpeech;
+			};
+			name = Debug;
+		};
+		CB35F9551D81045000FB0269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToSpeechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flitey.TextToSpeechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TextToSpeech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB35F9231D81044F00FB0269 /* Build configuration list for PBXProject "TextToSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB35F94B1D81045000FB0269 /* Debug */,
+				CB35F94C1D81045000FB0269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB35F94D1D81045000FB0269 /* Build configuration list for PBXNativeTarget "TextToSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB35F94E1D81045000FB0269 /* Debug */,
+				CB35F94F1D81045000FB0269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB35F9501D81045000FB0269 /* Build configuration list for PBXNativeTarget "TextToSpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB35F9511D81045000FB0269 /* Debug */,
+				CB35F9521D81045000FB0269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB35F9531D81045000FB0269 /* Build configuration list for PBXNativeTarget "TextToSpeechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB35F9541D81045000FB0269 /* Debug */,
+				CB35F9551D81045000FB0269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB35F9201D81044F00FB0269 /* Project object */;
+}

@@ -15,6 +15,7 @@
 		CB35F93E1D81045000FB0269 /* TextToSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35F93D1D81045000FB0269 /* TextToSpeechTests.swift */; };
 		CB35F9491D81045000FB0269 /* TextToSpeechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB35F9481D81045000FB0269 /* TextToSpeechUITests.swift */; };
 		CB6A09F81E4C010000894407 /* SpeechSynth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6A09F71E4C010000894407 /* SpeechSynth.swift */; };
+		CBAF8545288CD36400CFEA18 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CBAF8544288CD36400CFEA18 /* README.md */; };
 		CBBFD1EF1F00A62A000C323B /* ViewController.orig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBBFD1EE1F00A62A000C323B /* ViewController.orig.swift */; };
 		CBF92BF31F09A228000A74B8 /* SpeechItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF92BF21F09A228000A74B8 /* SpeechItem.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		CB35F9481D81045000FB0269 /* TextToSpeechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechUITests.swift; sourceTree = "<group>"; };
 		CB35F94A1D81045000FB0269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB6A09F71E4C010000894407 /* SpeechSynth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechSynth.swift; sourceTree = "<group>"; };
+		CBAF8544288CD36400CFEA18 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CBBFD1EE1F00A62A000C323B /* ViewController.orig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.orig.swift; sourceTree = "<group>"; };
 		CBF92BF21F09A228000A74B8 /* SpeechItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 		CB35F91F1D81044F00FB0269 = {
 			isa = PBXGroup;
 			children = (
+				CBAF8544288CD36400CFEA18 /* README.md */,
 				CB35F92A1D81044F00FB0269 /* TextToSpeech */,
 				CB35F93C1D81045000FB0269 /* TextToSpeechTests */,
 				CB35F9471D81045000FB0269 /* TextToSpeechUITests */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAF8545288CD36400CFEA18 /* README.md in Resources */,
 				CB35F9301D81044F00FB0269 /* Assets.xcassets in Resources */,
 				CB35F9331D81044F00FB0269 /* Main.storyboard in Resources */,
 			);
